@@ -308,7 +308,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         googlePlacesUrl.append("&type="+nearbyPlace);
         googlePlacesUrl.append("&sensor=true");
         googlePlacesUrl.append("&language=hr");
-        googlePlacesUrl.append("&key=AIzaSyBmlg2lKR_V43JqAzQZnYmd2w7ZVL2Ynxk");
+        googlePlacesUrl.append("&key= INSERT YOUR API KEY HERE ");
 
         return googlePlacesUrl.toString();
 
